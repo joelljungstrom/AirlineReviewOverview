@@ -3,6 +3,7 @@ import scrapy
 import re
 from AirlineReviewCounts.items import AirlinereviewcountsItem
 
+
 # Create Spider class
 class ReviewCountCrawler(scrapy.Spider):
     # Name of spider
